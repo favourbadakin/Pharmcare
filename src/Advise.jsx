@@ -11,7 +11,9 @@ import wink from './images/wink.svg';
 export default function Advise(){
 return(
     <section className='advise--section'>
-        <img className='rectangle' src={rectangle} alt='rectangle' />
+        <div className='rect-wrap'>
+                <img className='rectangle' src={rectangle} alt='rectangle' />
+        </div>
         <div className='advise-1'>
         <div>
             <img className='svg1' src={svg1} alt='svg' />
@@ -38,11 +40,16 @@ return(
         </div>
         </div>
         <div className='second-advise'>
-            <div className='wink-div'>
-            <img className='wink' src={wink} alt='wink' />
-            <div className='wink-div2 pl'>
-            <h2><strong>Online</strong></h2>
-            <h2><strong>Health check</strong></h2>
+
+            <div>
+                <div className='wink-div'>
+                <img className='wink' src={wink} alt='wink' />
+                <div className='wink-div2 pl'>
+            
+                
+                    
+            <h2 className='lil'><strong>Online</strong></h2>
+            <h2 className='lil'><strong>Health check</strong></h2>
             </div>
             </div>
             
@@ -52,9 +59,11 @@ return(
                 Results are accurate and timely. 
                 Schedule your OHC with us today by contacting us.</p>
                 <a href='/#' className='btn pl advise-btn'>Contact us</a>
+                </div>
                 <div className='top-svg'>
-            <img className='svg1' src={svg2} alt='svg' /> 
-            </div>   
+            <img className='svg1 svg2' src={svg2} alt='svg' /> 
+            </div> 
+            
         </div>
     </section>
 )}

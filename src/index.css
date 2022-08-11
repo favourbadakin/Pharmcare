@@ -16,6 +16,7 @@ colours{
 h1{
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
+  color: #2A2B40;
 }
 ol{
   font-family: 'Poppins', sans-serif;
@@ -138,21 +139,147 @@ footer{
 footer > div > h4{
   font-weight: 400;
 }
-.socials-icon{
-  margin-left: 8px;
+.socials-icon-1{
+  margin-left: 12px;
 }
 .socials-icon{
-  border-radius: 50%;
-  padding: 8px;
-  background-color: #FFFFFF;
-  color: #6D5AD8;
-}
+  width: 3%;
+} 
 /*-----------------FOR LARGE DEVICES-----------------*/
 @media  (min-width: 1024px){
 .hamburger{
   display: none;
 }
-
+.first-half{
+  padding: 32px 0 24px 48px;
+}
+h1{
+  font-size: 60px;
+  width: 420px;
+  margin-top: 120px;
+}
+.nav-logo{
+  width: 35%;
+}
+.nav-p{
+  font-size: 18px;
+  width: 80%;
+  line-height: 2.1;
+}
+.header-btn{
+  display: none;
+}
+.header-download{
+  margin-top: 280px;
+}
+.right-ad{
+  margin-left: 12px;
+}
+header{
+  display: flex;
+}
+.nav-desktop{
+  width: 80%;
+}
+.header-advert{
+  width: 180px;
+}
+.header-right-ad{
+  width: 180px;
+}
+.advise--section{
+  padding: 24px 32px 20% 32px;
+  border-bottom: .1px solid #2FB7BD;
+}
+.rect-wrap{
+  width: 100%;
+  margin: 0 auto;
+}
+.rectangle{
+  margin-left: 50%;
+  padding: 48px 0;
+}
+.advise-1-text >h2{
+  margin-bottom: 32px;
+}
+.second-advise{
+  padding-top: 96px;
+  padding-left: 48px;
+  display: flex;
+}
+.svg1{
+  object-fit: cover;
+  width: 90%;
+  margin: 0 auto;
+}
+.texts{
+  width: 400px;
+  margin: 80px 0 44px 0;
+}
+.lil{
+  margin-left: 24px;
+}
+.advise-btn{
+  margin-left: 64px;
+}
+.top-svg{
+  margin-left: 64px;
+  width: 100%;
+}
+.svg2{
+  object-fit: contain;
+}
+.try--section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 15%;
+  padding-left: 48px;
+  padding-top: 10%;
+}
+.try-div > h3{
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+.try-div > h6{
+  width: 240px;
+  margin-bottom: 16px;
+}
+.advert{
+  width: 140px;
+}
+.download{
+  width: 300px;
+}
+footer{
+  display: flex;
+  width: 105%;
+  padding: 64px 120px;
+}
+.footer-logo{
+  width: 180px;
+}
+.ml{
+  margin-left: 15%;
+}
+.footer-text{
+  width: 432px;
+  line-height: 1.8;
+}
+.socials{
+  display: none;
+}
+.my-span{
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+footer > div > h4{
+  margin-bottom: 28px;
+}
+.footer-link{
+  margin-top: 8px;
+}
 }
 
 /*-----------------FOR SMALL DEVICES-----------------*/
@@ -166,13 +293,15 @@ nav{
 }
 .header-text{
 }
+.header-download{
+  display: none;
+}
 .nav-logo{
   height: 26px;
   width: 136px; 
 }
 h1{
-  color: #2A2B40;
-  font-size: 42px;  /* uufjfjfjfjfjjfjfjfjfjfjfjfjfjfjf  i used 56px*/
+  font-size: 42px; 
   text-align: center;
 }
 .nav-p{
@@ -187,7 +316,7 @@ h1{
 .header-btn{
   margin: 36px 0px 48px 30%;
 }
-.rectangle{
+.rect-wrap{
   display: none;
 }
 .advise-1{
@@ -198,6 +327,9 @@ h1{
 }
 .advise-1-text > h2{
   margin-bottom: 56px;
+}
+.my-span{
+  display: none;
 }
 .svg1{
   width: 100%;
@@ -269,7 +401,7 @@ padding-left: 48px;
 }
 .footer-logo{
   width: 160px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 .features-wrap{
   display: block;
@@ -285,6 +417,6 @@ footer > div > h4{
   line-height: 1.5;
 }
 .socials{
-  margin-top: 16px
+  margin-top: 28px
 }
 }
