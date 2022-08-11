@@ -14,7 +14,8 @@ colours{
 }
 
 h1{
-
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
 }
 ol{
   font-family: 'Poppins', sans-serif;
@@ -84,7 +85,6 @@ body{
 .wink-div2{
   font-family: 'Gotham Rounded', sans-serif;
   color: #169FA4;
-  margin-left: 16px;
 }
 .texts{
   color: #697C91;
@@ -164,16 +164,16 @@ nav{
   align-items: center;
   padding: 20px 24px;
 }
+.header-text{
+}
 .nav-logo{
   height: 26px;
   width: 136px; 
 }
 h1{
   color: #2A2B40;
-  font-size: 48px;
-  font-family: 'Poppins', sans-serif;
+  font-size: 42px;  /* uufjfjfjfjfjjfjfjfjfjfjfjfjfjfjf  i used 56px*/
   text-align: center;
-  padding: 4px;
 }
 .nav-p{
   text-align: center;
@@ -217,9 +217,17 @@ h1{
   position: absolute;
   right: 10px;
 }
-.pl{
-  margin-left: 24px;
+.wink-div{
+  
 }
+.pl{
+  margin-left: 12px;
+}
+.wink-div2{
+  margin-left: 24px; 
+  padding: ;
+}
+
 .second-advise{
   margin-top: 64px;
 }
@@ -227,20 +235,27 @@ h1{
   margin-left: 76px;
 }
 .texts{
-  margin: 36px 0 36px 76px;
-  width: 260px;
+  margin: 36px 0 36px 76px;   
+  width: 80%;
   font-size: 12px;
   padding-right: 32px;
 }
 .try--section{
-  padding: 50% 20% 10% 20%;
+  padding: 50% 0 0 0;
+}
+.try-div{
+padding-left: 48px;
+}
+
+.try--image{
+  padding: 40px 40px 40px 46px;
 }
 .try--section > div > h3{
   margin: 0px 0px 12px 0px;
   font-size: 40px;
 }
 .download{
-  margin: 16px 0px;
+  padding: 16px 0px;
 }
 .advert{
   width: 120px;
@@ -250,7 +265,7 @@ h1{
 }
 .try-bg{
   object-fit: cover;
-  width: 120%;
+  width: 100%;
 }
 .footer-logo{
   width: 160px;

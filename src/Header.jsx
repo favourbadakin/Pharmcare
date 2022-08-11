@@ -11,7 +11,7 @@ return(
             <img className='nav-logo' src={logo} alt='logo' />
             <Hamburger className='hamburger'/>
         </nav>
-        <div>
+        <div className='header-text'>
             <h1>Get your prescriptions on the go.</h1>
             <p className='nav-p'>Get the right drugs for the right ailment by writing down the symptoms.
                  Call us right away and get information,
