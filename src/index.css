@@ -1,0 +1,275 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+colours{
+  font-family: 'Livvic', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Gotham Rounded', sans-serif;
+                                                
+}
+
+h1{
+
+}
+ol{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  color: #233567;;
+}
+.footer-link > a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+body{
+  overflow-x: hidden;
+}
+.btn{
+  padding: 16px 36px;
+  background-color: #6D5AD8;
+  display: inline-block;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+.nav-p{
+  color: #74769E;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.advise-1{
+  display: flex;
+}
+.advise-1-text > h2{
+  color: #169FA4;
+  font-family: 'Gotham Rounded', sans-serif;
+  }
+.advise-profile{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+.advise-profile > li {
+  margin-left: 28px;
+}
+.icon{
+  width: 28px;
+  height: 28px;
+}
+.advise-profile > li > h4{
+  color:#233567;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.advise-profile > li > p{
+  color: #697C91;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+.wink-div{
+  display: flex;
+  align-items: center;
+}
+.wink{
+  width: 50px;
+  height: 50px;
+}
+.wink-div2{
+  font-family: 'Gotham Rounded', sans-serif;
+  color: #169FA4;
+  margin-left: 16px;
+}
+.texts{
+  color: #697C91;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+.download{
+  display: flex;
+}
+.circle-bg{
+  position: relative;
+}
+.circle{
+  width: 100%;
+  margin: 0 auto;
+}
+.home-mobile{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+.mobile{
+  width: 100%;
+  height: 40%;
+}
+.try--section > div > h5{
+  color: #222A41;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.try--section > div > h3{
+  color: #222A41;
+  font-family: 'Gotham Rounded', sans-serif;
+}
+.try--section > div > h6{
+  color: #6D7783;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.footer-link{
+  margin-top: 4px;
+}
+footer{
+  background-color: #6D5AD8;
+  padding: 40px;
+  color: #FFFFFF;
+  font-family: 'Livvic', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+footer > div > h4{
+  font-weight: 400;
+}
+.socials-icon{
+  margin-left: 8px;
+}
+.socials-icon{
+  border-radius: 50%;
+  padding: 8px;
+  background-color: #FFFFFF;
+  color: #6D5AD8;
+}
+/*-----------------FOR LARGE DEVICES-----------------*/
+@media  (min-width: 1024px){
+.hamburger{
+  display: none;
+}
+
+}
+
+/*-----------------FOR SMALL DEVICES-----------------*/
+
+@media (max-width: 1023px) and (min-width: 10px){
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+}
+.nav-logo{
+  height: 26px;
+  width: 136px; 
+}
+h1{
+  color: #2A2B40;
+  font-size: 48px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 4px;
+}
+.nav-p{
+  text-align: center;
+  line-height: 2.1;
+  font-size: 16px;
+  padding: 0px 12px;
+}
+.nav-desktop{
+  display: none;
+}
+.header-btn{
+  margin: 36px 0px 48px 30%;
+}
+.rectangle{
+  display: none;
+}
+.advise-1{
+  flex-direction: column-reverse;
+}
+.advise-1-text{
+  margin-top: 24px;
+}
+.advise-1-text > h2{
+  margin-bottom: 56px;
+}
+.svg1{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.advise-profile > li > p{
+  font-size: 12px;
+}
+.advise--section{
+  border: .1px solid #2FB7BD;
+  padding: 0px 20px 160px 48px;
+  position: relative;
+}
+.top-svg{
+  width: 100%;
+  position: absolute;
+  right: 10px;
+}
+.pl{
+  margin-left: 24px;
+}
+.second-advise{
+  margin-top: 64px;
+}
+.advise-btn{
+  margin-left: 76px;
+}
+.texts{
+  margin: 36px 0 36px 76px;
+  width: 260px;
+  font-size: 12px;
+  padding-right: 32px;
+}
+.try--section{
+  padding: 50% 20% 10% 20%;
+}
+.try--section > div > h3{
+  margin: 0px 0px 12px 0px;
+  font-size: 40px;
+}
+.download{
+  margin: 16px 0px;
+}
+.advert{
+  width: 120px;
+}
+.right-ad{
+  margin-left: 12px;
+}
+.try-bg{
+  object-fit: cover;
+  width: 120%;
+}
+.footer-logo{
+  width: 160px;
+  margin-bottom: 12px;
+}
+.features-wrap{
+  display: block;
+}
+footer{
+  text-align: center;
+}
+footer > div > h4{
+  margin: 32px 0;
+}
+.footer-text{
+  font-size: 16px;
+  line-height: 1.5;
+}
+.socials{
+  margin-top: 16px
+}
+}
