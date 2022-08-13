@@ -333,13 +333,14 @@ h1{
 }
 .advise--section{
   border: .1px solid #2FB7BD;
-  padding: 0px 20px 160px 48px;
+  padding: 0px 20px 40% 48px;
   position: relative;
 }
 .top-svg{
   width: 100%;
   position: absolute;
   right: 10px;
+  bottom: 10;
 }
 .wink-div{
   
@@ -410,5 +411,8 @@ footer > div > h4{
 }
 .socials{
   margin-top: 28px
+}
+.last{
+  width: 24px;
 }
 }

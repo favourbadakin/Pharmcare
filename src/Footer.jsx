@@ -38,9 +38,9 @@ return(
             <p  className='footer-link'><a href='/#'>Contact Us</a></p>
         </div>
         <div className='socials'>
-            <span className='socials-icon'><img src={youtube} alt='' /></span>
-            <span className='socials-icon socials-icon-1'><img src={facebook} alt='' /></span>
-            <span className='socials-icon socials-icon-1'><img src={twitter} alt='' /></span>
+            <span className='socials-icon'><a href ='/#'><img src={youtube} alt='' className='last' /></a></span>
+            <span className='socials-icon socials-icon-1'><a href ='/#'><img src={facebook} alt='' className='last' /></a></span>
+            <span className='socials-icon socials-icon-1'><a href ='/#'><img src={twitter} alt='' className='last' /></a></span>
         </div>
 
     </footer>
