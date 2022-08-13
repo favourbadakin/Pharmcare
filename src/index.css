@@ -272,6 +272,9 @@ footer > div > h4{
 .footer-link{
   margin-top: 8px;
 }
+.mobile-fav{
+  display: none;
+}
 }
 
 /*-----------------FOR SMALL DEVICES-----------------*/
@@ -414,5 +417,13 @@ footer > div > h4{
 }
 .last{
   width: 24px;
+}
+.mobile-fav{
+  margin: 32px 0 18px 0;
+  font-size: 12px;
+}
+.fav-link{
+  text-decoration: none;
+  color: #D0D0D0;
 }
 }

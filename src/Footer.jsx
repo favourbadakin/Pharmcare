@@ -41,7 +41,10 @@ return(
             <span className='socials-icon'><a href ='/#'><img src={youtube} alt='' className='last' /></a></span>
             <span className='socials-icon socials-icon-1'><a href ='/#'><img src={facebook} alt='' className='last' /></a></span>
             <span className='socials-icon socials-icon-1'><a href ='/#'><img src={twitter} alt='' className='last' /></a></span>
+            <br />
         </div>
-
+        <div className="mobile-fav">
+        <span><a className="fav-link" href='https://twitter.com/fav_bdk' rel="noreferrer noopener" target='_blank'>Developed with love by Fave⚡</a></span>
+        </div>
     </footer>
 )}
