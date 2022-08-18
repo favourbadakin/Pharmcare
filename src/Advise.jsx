@@ -36,7 +36,7 @@ return(
             <li><h4>Does not cost much to call</h4>
             <p>Call us today for medical based advisory.</p></li>
             </div>
-            </ol>
+            </ol>      
         </div>
         </div>
         <div className='second-advise'>
