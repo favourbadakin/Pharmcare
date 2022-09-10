@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import svg1 from './images/svg1.png';
 import svg2 from './images/svg2.svg';
 import profile from './images/profile-circle.svg';
