@@ -3,6 +3,7 @@ import TryBg from './images/try-bg-3.svg';
 import google from './images/google.png';
 import apple from './images/apple.svg';
 
+
 export default function Header (){
 return(
     <section className='try--section'>
