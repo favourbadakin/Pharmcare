@@ -137,7 +137,7 @@ footer > div > h4{
 .socials-icon{
   width: 3%;
 } 
-/*-----------------FOR LARGE DEVICES-----------------*/
+/*------------------FOR LARGE DEVICES-----------------*/
 @media  (min-width: 1024px){
 .hamburger{
   display: none;
