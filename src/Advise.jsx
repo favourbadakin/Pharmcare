@@ -6,7 +6,6 @@ import laptop from './images/Bold-Outline_1_.svg';
 import money from './images/money.svg';
 import rectangle from './images/rectangle.svg';
 import wink from './images/wink.svg';
-
 export default function Advise(){
 return(
     <section className='advise--section'>
