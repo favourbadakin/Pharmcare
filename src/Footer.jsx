@@ -6,8 +6,7 @@ import youtube from './images/youtube-footer.png';
 export default function Footer (){
 return(
 
-
-    <footer>
+   <footer>
         <div>
         <div>
             <img className='footer-logo' src={logo} alt='logo' />
