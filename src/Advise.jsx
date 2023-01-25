@@ -44,7 +44,6 @@ return(
                 <img className='wink' src={wink} alt='wink' />
                 <div className='wink-div2 pl'>
             
-                
                     
             <h2 className='lil'><strong>Online</strong></h2>
             <h2 className='lil'><strong>Health check</strong></h2>
