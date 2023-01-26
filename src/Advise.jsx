@@ -16,6 +16,7 @@ return(
         <div>
             <img className='svg1' src={svg1} alt='svg' />
         </div>
+
         <div className='advise-1-text'>
             <h2><strong>We Give Advise.</strong></h2>
             <ol>
