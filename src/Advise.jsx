@@ -12,6 +12,7 @@ return(
         <div className='rect-wrap'>
                 <img className='rectangle' src={rectangle} alt='rectangle' />
         </div>
+
         <div className='advise-1'>
         <div>
             <img className='svg1' src={svg1} alt='svg' />
