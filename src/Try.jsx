@@ -5,7 +5,6 @@ import apple from './images/apple.svg';
 
 export default function Header (){
 return(
-
     <section className='try--section'>
         <div className='try-div'>
             <h5>Be our Success story</h5>
