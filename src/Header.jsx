@@ -5,10 +5,8 @@ import google from './images/google.png';
 import apple from './images/apple.svg';
 import { Squash as Hamburger } from 'hamburger-react'
 
-
 export default function Header(){
 return(
-
     <header>
         <div className='first-half'>
         <nav>
