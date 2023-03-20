@@ -42,7 +42,7 @@ return(
             <span className='socials-icon socials-icon-1'><a href ='/#'><img src={twitter} alt='' className='last' /></a></span>
             <br />
         </div>
-        <div className="mobile-fav">
+        <div className="mobile-fav yea">
         <span><a className="fav-link" href='https://twitter.com/fav_bdk' rel="noreferrer noopener" target='_blank'>Developed with love by Fave⚡</a></span>
         </div>
     </footer>
