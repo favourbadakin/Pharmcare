@@ -11,7 +11,6 @@ return(
     
     
     
-    
     <section className='advise--section'>
         <div className='rect-wrap'>
                 <img className='rectangle' src={rectangle} alt='rectangle' />
