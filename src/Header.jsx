@@ -9,7 +9,6 @@ return(
     <header>
     
     
-    
         <div className='first-half'>
         <nav>
             <img className='nav-logo' src={logo} alt='logo' />
