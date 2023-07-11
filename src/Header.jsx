@@ -8,7 +8,6 @@ export default function Header(){
 return(
     <header>    
         
-        
 
         
         <div className='first-half'>
