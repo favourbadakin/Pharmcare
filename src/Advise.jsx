@@ -9,7 +9,6 @@ import wink from './images/wink.svg';
 export default function Advise(){
 return(
 
-    
         
     
     <section className='advise--section'>
